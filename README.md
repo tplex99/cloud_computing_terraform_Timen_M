@@ -14,8 +14,8 @@ writen using:
 
 Terraform v1.0.11
 on windows_amd64
-+ provider registry.terraform.io/hashicorp/aws v3.65.0
-+ provider registry.terraform.io/hashicorp/local v2.1.0
+provider registry.terraform.io/hashicorp/aws v3.65.0
+provider registry.terraform.io/hashicorp/local v2.1.0
 
 and:
 visual studio code
