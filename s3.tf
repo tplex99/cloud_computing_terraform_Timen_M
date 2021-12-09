@@ -20,6 +20,5 @@ resource "aws_s3_bucket_object" "object" {
   key    = "image.png"
   acl    = "public-read"  # or can be " private"
   source = "../dieltiens_files/image.png"
-  //etag = filemd5("myfiles/yourfile.txt")
 }
 
