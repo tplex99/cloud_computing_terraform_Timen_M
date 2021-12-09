@@ -24,3 +24,4 @@ extensions used:
 HachiCorp terraform v2.17.0 by HachiCorp
 terraform v0.2.2 by Anton Kulikov
 
+lambda.tf  is en only uploads the lambda file and makes a role for it.
