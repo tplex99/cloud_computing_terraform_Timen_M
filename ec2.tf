@@ -7,7 +7,6 @@ resource "aws_instance" "terraec2" { //aws instance = welke aws service  //naam 
   //user_data = "${file("user_data.txt")}"
   user_data = <<EOF
 #!bin/bash
-sudo mkdir /testese22
 sudo apt update 
 sudo apt install apache2 -y
 sudo apt install php7.4 -y
